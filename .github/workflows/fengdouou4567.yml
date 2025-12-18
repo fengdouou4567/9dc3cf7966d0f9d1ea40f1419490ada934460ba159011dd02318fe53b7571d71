@@ -3,7 +3,7 @@ name: fengdouou4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 5/6 * * *'
+    - cron: '36 4/6 * * *'
 
 jobs:
   build:
@@ -13,17 +13,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: fengdouou4567
         env:
-          uvapz8611: ${{ secrets.uvapz8611 }}
+          jw4: ${{ secrets.jw4 }}
         run: |
-          echo $uvapz8611 | jq -r .kfic319 | /bin/bash
-          echo $hmfz1670 | jq -r .m9197 | /bin/bash
-          echo $s53499 | jq -r .mpplp742 | /bin/bash
-          echo $bw62 | jq -r .qmetd9 | /bin/bash
-          echo $iej3019 | jq -r .vv47114 | /bin/bash
-          echo $utgo1 | jq -r .sfk7 | /bin/bash
-          echo $fkujn390 | jq -r .pnnne0036 | /bin/bash
-          echo $hzso8 | jq -r .crzbw7 | /bin/bash
-          echo $ggkzu0 | jq -r .r11918 | /bin/bash
-          echo $hg32414 | jq -r .gpwn29699 | /bin/bash
-          echo $ue463 | jq -r .o0 | /bin/bash
+          echo $jw4 | jq -r .jftgo360 | /bin/bash
+          echo $x5 | jq -r .wtp14854 | /bin/bash
+          echo $tna19735 | jq -r .tbwx87 | /bin/bash
+          echo $xcrtr5581 | jq -r .tbpd310 | /bin/bash
+          echo $zb62250 | jq -r .yi5369 | /bin/bash
+          echo $mbyt116 | jq -r .d07402 | /bin/bash
+          echo $rctoq538 | jq -r .adrd214 | /bin/bash
+          echo $menl7787 | jq -r .wj69996 | /bin/bash
+          echo $w052 | jq -r .lpf8860 | /bin/bash
+          echo $ycs52153 | jq -r .yv9701 | /bin/bash
+          echo $h68 | jq -r .yd56791 | /bin/bash
+          echo $bzp23 | jq -r .hpp5191 | /bin/bash
 
